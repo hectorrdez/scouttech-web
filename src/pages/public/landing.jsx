@@ -94,11 +94,11 @@ function HeroSection() {
           ></div>
         ))}
       </div>
-      <div className="z-10 text-center max-w-3xl p-6 relative flex flex-col items-center justify-center gap-4">
+      <div className="z-10 text-center max-w-4xl p-6 relative flex flex-col items-center justify-center gap-4">
         <img src={logo} alt="Logo" className="w-200 h-20 drop-shadow-lg" />
         <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-5xl h-28 drop-shadow-[0_4px_10px_rgba(0,0,0,0.9)]">
           <span
-            className="animate-slide-fade line-clamp-2 h-full"
+            className="animate-slide-fade h-full line-clamp-2"
             key={currentPhrase}
           >
             {phrases[currentPhrase]}
